@@ -8,6 +8,10 @@ uses
 {$R *.res}
 
 begin
+  {$ifdef debug}
+  ReportMemoryLeaksOnShutdown := True;
+  {$endif}
+  
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TMain, Main);
