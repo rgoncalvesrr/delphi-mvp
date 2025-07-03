@@ -37,7 +37,9 @@
     <DelphiCompile Include="MVP.dpr">
       <MainSource>MainSource</MainSource>
     </DelphiCompile>
+    <DCCReference Include="..\Core\ViewIntf.pas" />
     <DCCReference Include="..\Features\Conexao\Conexao.Domain.pas" />
+    <DCCReference Include="..\Features\Conexao\Conexao.Intf.pas" />
     <DCCReference Include="uMain.pas">
       <Form>Main</Form>
     </DCCReference>
