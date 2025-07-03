@@ -2,7 +2,8 @@ program MVP;
 
 uses
   Forms,
-  uMain in 'uMain.pas' {Main};
+  uMain in 'uMain.pas' {Main},
+  Conexao.Domain in '..\Features\Conexao\Conexao.Domain.pas';
 
 {$R *.res}
 
